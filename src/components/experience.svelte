@@ -1,5 +1,13 @@
+<script>
+    export let place;
+    export let job;
+    export let presentation;
+    export let works = [];
+    export let logoColor;
+</script>
+
 <div class="experience">
-    <div class="experience__logo">
+    <div class="experience__logo" style="background-color: {logoColor};">
         <svg
             xmlns="http://www.w3.org/2000/svg"
             width="1.8em"
@@ -13,14 +21,35 @@
         </svg>
     </div>
     <div class="experience__job">
-        <h2>Instituto Superior de Engenharia de Coimbra</h2>
+        <h2 class="experience__place">{place}</h2>
         <div class="experience__job-info">
-            <p>April 2023 - PRESENT (Full Stack Engineer)</p>
+            <p class="experience__job-text">{job}</p>
         </div>
     </div>
 </div>
+<div class="presentation">
+    <p class="presentation__text">
+        {presentation}
+    </p>
+</div>
+<div class="list-works">
+    {#each works as work}
+        <li>{work}</li>
+    {/each}
+</div>
 
 <style>
+    .experience__job-text {
+        margin: 0;
+        opacity: 0.6;
+    }
+    .list-works {
+        margin-top: 15px;
+        margin-left: 45px;
+        font-weight: 300;
+        opacity: 0.8;
+        margin-bottom: 7%;
+    }
     .experience__job-info {
         display: flex;
         justify-content: space-between;
@@ -33,7 +62,6 @@
         align-items: center;
     }
     .experience__logo {
-        background-color: #a854f7;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -46,16 +74,24 @@
         fill: white;
     }
 
-    h2 {
+    .experience__place {
         font-weight: 400;
         margin: 0;
     }
 
-    p {
+    .presentation__text {
         margin: 0;
         opacity: 0.6;
         font-weight: 400;
         font-size: 0.9em;
         margin-left: 3px;
+    }
+
+    .presentation > p {
+        font-size: 1.1em;
+        font-weight: 300;
+        opacity: 1;
+        margin-top: 2%;
+        margin-left: 3%;
     }
 </style>

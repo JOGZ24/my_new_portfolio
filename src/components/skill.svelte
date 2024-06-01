@@ -1,16 +1,12 @@
 <script>
     import { fade } from "svelte/transition";
     export let name;
+    export let image;
 </script>
 
 <div in:fade={{ y: 50, duration: 500 }} class="skill">
     <p>{name}</p>
-    <img
-        src="https://imgs.search.brave.com/sDXS3IWHlItL53Dwu4oDtG8-5ydhvhQW28ByBeYMru8/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMuc3RpY2twbmcu/Y29tL2ltYWdlcy81/ODQ4MTUyZmNlZjEw/MTRjMGI1ZTQ5Njcu/cG5n"
-        alt=""
-        width="auto"
-        height="20"
-    />
+    <img src={image} alt="" width="auto" height="20" />
 </div>
 
 <style>
