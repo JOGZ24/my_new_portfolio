@@ -7,7 +7,11 @@
 </script>
 
 <div class="experience">
-    <div class="experience__logo" style="background-color: {logoColor};">
+    <div
+        class="experience__logo"
+        style="background-color: {logoColor}; width: 3em; height: 3em;"
+    >
+        <!-- Utilisation d'unités relatives -->
         <svg
             xmlns="http://www.w3.org/2000/svg"
             width="1.8em"
@@ -44,8 +48,8 @@
         opacity: 0.6;
     }
     .list-works {
-        margin-top: 15px;
-        margin-left: 45px;
+        margin-top: 1.5em; /* Utilisation d'une valeur relative */
+        margin-left: 3em; /* Utilisation d'une valeur relative */
         font-weight: 300;
         opacity: 0.8;
         margin-bottom: 7%;
@@ -55,7 +59,7 @@
         justify-content: space-between;
     }
     .experience__job {
-        margin-left: 13px;
+        margin-left: 0.65em; /* Utilisation d'une valeur relative */
     }
     .experience {
         display: flex;
@@ -65,8 +69,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 50px;
-        height: 50px;
+        width: 3em; /* Utilisation d'une valeur relative */
+        height: 3em; /* Utilisation d'une valeur relative */
         border-radius: 50%;
     }
 
@@ -84,7 +88,7 @@
         opacity: 0.6;
         font-weight: 400;
         font-size: 0.9em;
-        margin-left: 3px;
+        margin-left: 0.3em;
     }
 
     .presentation > p {
