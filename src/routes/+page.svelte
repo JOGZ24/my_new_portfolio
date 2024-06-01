@@ -130,14 +130,16 @@
         font-size: 1.4em;
     }
     .presentation__container {
-        width: 50vw;
+        width: 90%;
+        max-width: 600px;
         margin-left: 10px;
         font-weight: 300;
     }
 
     .main-content {
         font-weight: 250;
-        width: 70vw;
+        width: 90%;
+        max-width: 800px;
         font-size: 1.2em;
     }
 
