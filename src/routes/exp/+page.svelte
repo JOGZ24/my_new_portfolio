@@ -1,3 +1,7 @@
+<script>
+    import Experience from "../../components/experience.svelte";
+</script>
+
 <div class="introduction">
     <h1>Experiences</h1>
     <p>
@@ -7,6 +11,9 @@
         application development, and bot development. Here are some of the
         works, I have been involved in.
     </p>
+</div>
+<div class="experiences">
+    <Experience></Experience>
 </div>
 
 <style>
@@ -19,5 +26,10 @@
     .introduction > h1 {
         font-size: 3em;
         font-weight: 600;
+    }
+
+    .experiences {
+        margin-top: 7%;
+        width: 60vw;
     }
 </style>

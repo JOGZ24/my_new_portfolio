@@ -1,8 +1,10 @@
 <script>
+    import { fly } from "svelte/transition";
+
     export let image;
 </script>
 
-<div class="project">
+<div in:fly={{ y: 50, duration: 500 }} class="project">
     <img class="project__image" src={image} alt="" width="250" height="auto" />
 </div>
 
