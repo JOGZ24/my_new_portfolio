@@ -3,6 +3,7 @@
     // Aucun script nécessaire pour cette tâche
 
     import Header from "../components/header.svelte";
+    import Footer from "../components/footer.svelte";
 
     import { page } from "$app/stores";
     import { onNavigate } from "$app/navigation";
@@ -39,6 +40,7 @@
         <div class="content">
             <slot />
         </div>
+        <Footer></Footer>
     </div>
 </body>
 

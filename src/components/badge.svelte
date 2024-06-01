@@ -3,10 +3,10 @@
     export let name;
 </script>
 
-<div transition:fade={{ y: 50, duration: 100 }} class="skill">{name}</div>
+<div transition:fade={{ y: 50, duration: 100 }} class="badge">{name}</div>
 
 <style>
-    .skill {
+    .badge {
         border: 1px solid #a8a29d;
         color: #a8a29d;
         width: min-content;
@@ -16,7 +16,7 @@
         margin: 0 7px;
     }
 
-    .skill:hover {
+    .badge:hover {
         background-color: rgba(218, 165, 32, 0.4);
         border: 1px solid rgba(218, 165, 32, 0.8);
         color: white;

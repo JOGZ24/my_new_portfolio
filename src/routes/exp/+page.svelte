@@ -33,13 +33,7 @@
 
 <div class="introduction">
     <h1>Experiences</h1>
-    <p>
-        I have been working as a full-time software developer since 2020, and a
-        freelancer since 2018. As I have already indexed by projects, I have
-        worked on a variety of projects, ranging from web development, desktop
-        application development, and bot development. Here are some of the
-        works, I have been involved in.
-    </p>
+    <p>Voici un aperçu de mes expériences jusqu'à présent :</p>
 </div>
 <div class="experiences">
     <Experience
