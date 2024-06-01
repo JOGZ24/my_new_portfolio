@@ -63,6 +63,26 @@
                     name="SQL"
                     image="https://imgs.search.brave.com/YVyfwwIlAHUZfc-0o8QR8jYSShZW4lCBBZRvfguR9MM/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93d3cu/cG9zdGdyZXNxbC5v/cmcvbWVkaWEvaW1n/L2Fib3V0L3ByZXNz/L2VsZXBoYW50LnBu/Zw"
                 ></Skill>
+                <Skill
+                    name="C#"
+                    image="https://imgs.search.brave.com/G0Fg48Fe5q2rV3_UI9bp-oeQPUYIiNvl32Urx1uCBuc/rs:fit:860:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy9i/L2JkL0xvZ29fQ19z/aGFycC5zdmc.svg"
+                ></Skill>
+                <Skill
+                    name="HTML"
+                    image="https://imgs.search.brave.com/uYdp_mAugIFP1aLvY9mARspEn5lIZXXkA4glfSRW6Lc/rs:fit:860:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy82/LzYxL0hUTUw1X2xv/Z29fYW5kX3dvcmRt/YXJrLnN2Zw.svg"
+                ></Skill>
+                <Skill
+                    name="CSS"
+                    image="https://imgs.search.brave.com/N1hgWKHudLbcpp0RBaetQ76JGZu8Djm_02jt8OagdHo/rs:fit:860:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy82/LzYyL0NTUzNfbG9n/by5zdmc.svg"
+                ></Skill>
+                <Skill
+                    name="Svelte"
+                    image="https://imgs.search.brave.com/XMKRyYpA1n75pckJPcxeojR9cgqlIY8DvZNLfk9aVIg/rs:fit:860:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy8x/LzFiL1N2ZWx0ZV9M/b2dvLnN2Zw.svg"
+                ></Skill>
+                <Skill
+                    name="Docker"
+                    image="https://imgs.search.brave.com/yjXLWE5MFFsDq6pF1NDXtYfl0boqbGFKvMFqhPjvdtY/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/ZG9ja2VyLmNvbS93/cC1jb250ZW50L3Vw/bG9hZHMvMjAyMy8w/NS9zeW1ib2xfYmx1/ZS1kb2NrZXItbG9n/by5wbmc"
+                ></Skill>
             {/if}
         </div>
     </div>

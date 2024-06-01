@@ -14,7 +14,7 @@
     {/if}
     <nav class="nav">
         <a href="/" alt="">Home</a>
-        <a href="/projects" alt="">Projects</a>
+        <a href="/projects" alt="">Projets</a>
         <a href="/exp" alt="">Experiences</a>
     </nav>
 </div>
