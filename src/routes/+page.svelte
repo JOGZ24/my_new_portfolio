@@ -100,7 +100,7 @@
         </p>
     </div>
     <div class="main-content__exist">
-        <h2>Pourquoi je suis fait pour ce métier</h2>
+        <h2>Pourquoi suis-je fait pour ce métier</h2>
         <p>
             Je suis profondément passionné par le développement logiciel et
             motivé par la recherche constante de solutions innovantes. Doté d'un
