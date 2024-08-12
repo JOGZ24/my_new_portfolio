@@ -5,7 +5,7 @@
 <div class="header">
     {#if showProfile == "true"}
         <img
-            src="https://scontent.fopo6-2.fna.fbcdn.net/v/t1.15752-9/426660886_642754561310087_3166163148633590885_n.png?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeE-EoRe96EnqZsAK_UsS_uWin2qQ8fg3DqKfapDx-DcOvj3IphvmACRxqVwVj04SxQoWS6_iCkXgdmprAqQM4En&_nc_ohc=2LZldypesocQ7kNvgF7fCwj&_nc_ht=scontent.fopo6-2.fna&oh=03_Q7cD1QFTY6_grxsMYU6Lk_6ls2bzmcDJWVke1rYusvb3bAHxBQ&oe=66804EE7"
+            src="/face.png"
             alt=""
             width="40"
             height="auto"
