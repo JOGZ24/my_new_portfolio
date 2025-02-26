@@ -55,6 +55,13 @@
       Framework Java pour créer des applications web robustes et évolutives.
     </p>
   </div>
+  <div class="competence">
+    <h2>GitLab CI/CD</h2>
+    <p>
+      Outil d'intégration et de déploiement continus pour automatiser les
+      workflows.
+    </p>
+  </div>
 </div>
 
 <style>
