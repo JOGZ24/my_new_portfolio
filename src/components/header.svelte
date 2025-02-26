@@ -16,7 +16,7 @@
     <a href="/" alt="">Home</a>
     <a href="/projects" alt="">Projets</a>
     <a href="/competences" alt="">Compétences</a>
-    <a href="/exp" alt="">Experiences</a>
+    <a href="/exp" alt="">Expériences</a>
   </nav>
 </div>
 

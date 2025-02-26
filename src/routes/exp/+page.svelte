@@ -40,13 +40,13 @@
 </script>
 
 <div class="introduction">
-  <h1>Experiences</h1>
+  <h1>Expériences</h1>
   <p>Voici un aperçu de mes expériences jusqu'à présent :</p>
 </div>
 <div class="experiences">
   <Experience
-    place="Arras"
-    job="En cours - Talent Pluriel - Alternant développeur fullstack"
+    place="Talent Pluriel"
+    job="Septembre 2024 - Août 2025 / Alternant développeur fullstack"
     presentation="
       Actuellement, je suis en alternance chez Talent Pluriel en tant que développeur fullstack. J'ai l'opportunité de travailler sur des projets diversifiés, incluant la création d'une API REST en NestJS pour gérer des ressources dynamiques, le développement d'applications mobiles multiplateformes avec Flutter, ainsi que la mise en place de solutions CI/CD pour automatiser les déploiements avec GitLab. Mon rôle inclut également la maintenance et l'ajout de nouvelles fonctionnalités sur des applications web et mobiles existantes.
     "
@@ -62,7 +62,7 @@
   ></Experience>
   <Experience
     place="Instituto Superior de Engenharia de Coimbra"
-    job="Avril 2024 - Juillet 2024 (Full Stack Developper)"
+    job="Avril 2024 - Juillet 2024  / Stagiaire développeur fullstack"
     presentation="Stage de développement web à l'Instituto Superior de Engenharia à Coimbra, Portugal, je participe activement au développement full-stack d'un site web. En collaboration avec une équipe, nous intégrons un système de gestion de la maintenance assistée par ordinateur (CMMS) et explorons les possibilités de réalité augmentée pour enrichir l'expérience utilisateur."
     works={isecWorks}
     logoColor="#b42a21"
@@ -76,7 +76,7 @@
   ></Experience>
   <Experience
     place="Fédération Nationale des Associations Etudiantes Linguistes"
-    job="Juin 2021 - Septembre 2021 (WordPress Developpeur)"
+    job="Juin 2021 - Septembre 2021 /  Développeur WordPress "
     presentation=" De juin à septembre 2021 à Lille, j'ai eu l'opportunité de contribuer au maintien et au développement du site internet de la FNAEL. Pendant cette période, j'ai apporté des améliorations fonctionnelles et esthétiques au site, contribuant ainsi à son évolution. "
     works={fnaelWorks}
     logoColor="#45a742"
