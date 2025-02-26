@@ -26,9 +26,9 @@
       <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
       <p class="skills__show-more" on:click={changeMoreSkill}>
         {#if moreSkill}
-          Show less
+          Voir moins
         {:else}
-          Show more
+          Voir plus
         {/if}
       </p>
       <Skill
